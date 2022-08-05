@@ -1,0 +1,51 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+
+body{
+	text-align: center;
+	background-color: blueviolet;
+}
+
+.calculadora{
+	position: relative;
+	top: 250px;
+	background-color: white;
+	width: 240px;
+	margin: auto;
+	border: 2px black solid;
+	padding: 5px;
+}
+
+.button, .operator, .clear{
+	padding: 10px;
+	margin: 3px;
+	width: 50px;
+	height: 50px;
+	border: 1px solid black;
+	font-size: 20px;
+}
+
+.operator{
+	background-color: rgba(0, 0, 255, 0.5);
+}
+
+.clear{
+	background-color: rgba(255, 0, 0, 0.5);
+}
+
+.equal-sign{
+	background-color: rgba(0, 255, 0, 0.5);
+}
+
+.screen{
+	padding: 10px;
+	text-align-last: end;
+	margin: 2px;
+	width: 150px;
+	height: 25px;
+	border-radius: 5px;
+	border: 1px solid black;
+	font-size: 20px;
+}
